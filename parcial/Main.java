@@ -29,8 +29,7 @@ public class Main {
                     System.out.println("Nombre del buque");
                     String nombre = sc.next();
 
-                    Buque b = new Buque(nombre, id); 
-                    Buque b = new Buque(nombre, id); 
+                    Buque b = new Buque(nombre, id);  
                     registro.agregarBuque(b);
 
                     break;
@@ -59,7 +58,7 @@ public class Main {
                     break;
             }
         } while (opcion !=5) ;
-            
+            System.out.println("Aplicacion final");
         }
     
     
