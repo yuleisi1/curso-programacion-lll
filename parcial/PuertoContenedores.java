@@ -20,10 +20,10 @@ public class PuertoContenedores {
             for(int j = 0; j < 10; j++){
             
                 if (matriz[i][j] == null){
-                    System.out.println("[ ]");
+                    System.out.print("[ ]");
                 }
                 else{
-                    System.out.println("[x]");
+                    System.out.print("[x]");
             }
         }
         System.out.println();
