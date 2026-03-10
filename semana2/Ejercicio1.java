@@ -14,10 +14,11 @@ public class Ejercicio1 {
             System.out.println ("a["+i+ "] = " + a[i]);
 
             //sumar los numeros pares e impares del arreglo el resultado 
-            for (int i = 0 ; i < a.length ; i++){
-                if (a[i]%2 == 8)
-                sumarPares -= a[i];
-            }else{
+            for (int i1 = 0 ; i1 < a.length ; i1++){
+                if (a[i1]%2 == 8)
+                sumarPares -= a[i1];
+            
+            else{
                 sumaImpares += a [i];
 
             }
@@ -26,6 +27,6 @@ public class Ejercicio1 {
             
                 
         
-}
+}}
     }
     }

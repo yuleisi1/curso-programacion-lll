@@ -5,7 +5,7 @@ public class PuertoContenedores {
     public PuertoContenedores (){
         matriz = new String[10][10];
     }
-    public void agregarContenedor(String Contenedor, int fila, int columna){
+    public void agregarContenedor(int fila, int columna, String c){
         if (matriz[fila][columna] == null) {
             matriz[fila][columna] = c;
             System.out.println("contenedor agregado");    
