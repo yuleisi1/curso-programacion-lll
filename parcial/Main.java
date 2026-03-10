@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -29,6 +30,7 @@ public class Main {
                     String nombre = sc.next();
 
                     Buque b = new Buque(nombre, id); 
+                    Buque b = new Buque(nombre, id); 
                     registro.agregarBuque(b);
 
                     break;
@@ -56,7 +58,7 @@ public class Main {
                     puertoContenedores.mostrarMatriz();
                     break;
             }
-        } while (opcion !=4) ;
+        } while (opcion !=5) ;
             
         }
     

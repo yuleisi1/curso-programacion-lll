@@ -4,7 +4,6 @@ public class Buque {
     private int id;
 
     public Buque (String nombre, int id){
-
         this.nombre = nombre;
         this.id = id; 
     }
@@ -12,7 +11,7 @@ public class Buque {
     public String getnombre(){
         return nombre;
     }
-    public int setid(){
+    public int getid(){
         return id;
 
     }
