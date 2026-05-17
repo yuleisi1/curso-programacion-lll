@@ -28,6 +28,11 @@ public class Aula {
             }else{ 
                 System.out.println("Disponible"); 
 
-                }} 
+                }}
+
+        public void liberar(int diaL, int horaL, int duracionL) {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'liberar'");
+        } 
 } 
 

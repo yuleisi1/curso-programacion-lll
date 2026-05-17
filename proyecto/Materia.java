@@ -8,7 +8,8 @@ public class Materia {
      private String codigo; 
     private int cupos ; 
     private LinkedList<String> prerequisitos; 
-    private Queue<Estudiante> colaEspera; 
+    private Queue<Estudiante> colaEspera;
+    public Object mos; 
 
     public Materia (String codigo, String nombre, int cupos, int creditos){ 
         this.codigo= codigo; 
